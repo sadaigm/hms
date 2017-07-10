@@ -1,0 +1,162 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Jun, 2017, 8:57:38 PM
+    Author     : sadaiyandi
+*/
+
+/*avatar css*/
+
+.avatar-circle {
+  width: 40px;
+  height: 40px;
+/*  background-color: #016596;*/
+  background-color: #0dbad0;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.initials {
+  position: relative;
+  top: 10px; /* 25% of parent */
+  font-size: 20px; /* 50% of parent */
+  line-height: 20px; /* 50% of parent */
+  color: #fff;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+
+.chat
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.chat li
+{
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px dotted #B3A9A9;
+}
+
+.chat li.left .chat-body
+{
+  margin-left: 40px;
+  padding: 5px 10px 5px 10px;
+}
+
+.chat li.right .chat-body
+{
+    margin-right: 30px;
+}
+
+
+.chat li .chat-body p
+{
+    margin: 0;
+    color: #777777;
+}
+
+.panel .slidedown .glyphicon, .chat .glyphicon
+{
+    margin-right: 5px;
+}
+
+.chat_list_view
+{
+    overflow-y: scroll;
+    height: 300px;
+}
+
+::-webkit-scrollbar-track
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb
+{
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #555;
+}
+.chat-body .header{
+    margin-left: 15px;
+}
+
+.details_content{
+  word-break: break-all;
+  margin-left: 15px;
+}
+span.chat-img.pull-left {
+   margin-top: 20px;
+}
+
+.label_content{
+    
+/*    color: #009688;*/
+    color: #908888;
+}
+@media screen and (max-width: 699px) and (min-width: 320px), (min-width: 1151px) {
+small.pull-right.text-muted {
+    font-size: 10px;
+    background-color: #f5f5f5;
+    color: #3a87ad;
+    /* box-shadow: 4px 2px black; */
+}
+}
+
+div#box{
+	margin-top: 15px;
+
+}
+
+div#box1{
+	margin-top: 15px;
+	overflow-wrap: break-word;
+	height: 570px;
+}
+div#box .box-top{
+	color: #fff;
+	background-color: #2980b9;
+	text-shadow: 0px 0px 0px #ddd;
+	padding: 5px;
+	font-weight: 400;
+}
+div#box .box-panel{
+	padding: 5px;
+	background-color: rgba(208, 216, 223, 0.45);
+	border-bottom: 1px;
+	color: #333;
+}
+div#box .box-panel-content{
+	padding: 5px;
+	background-color: #fff;
+	color: #041746;
+	font-weight: 400;
+	border-bottom: 1px;
+}
+div#box .box-panel-content label.h4{
+	padding: 15px;
+	font-weight: 400;
+
+}
+div#box .box-panel-content label{
+	font-weight: 400;
+
+}
+
+div#box .box-panel div{
+padding: 10px;
+}

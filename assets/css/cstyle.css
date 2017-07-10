@@ -1,0 +1,96 @@
+div#box{
+	margin-top: 15px;
+
+}
+
+div#box1{
+	margin-top: 15px;
+	overflow-wrap: break-word;
+	height: 570px;
+}
+div#box .box-top{
+	color: #fff;
+	background-color: #2980b9;
+	text-shadow: 0px 0px 0px #ddd;
+	padding: 5px;
+	font-weight: 400;
+}
+div#box .box-panel{
+	padding: 15px;
+	background-color: rgba(208, 216, 223, 0.45);
+	border-bottom: 1px;
+	color: #333;
+}
+div#box .box-panel-content{
+	padding: 10px;
+	background-color: #fff;
+	color: #041746;
+	font-weight: 400;
+	border-bottom: 1px;
+}
+div#box .box-panel-content label.h4{
+	padding: 15px;
+	font-weight: 400;
+
+}
+div#box .box-panel-content label{
+	font-weight: 400;
+
+}
+
+div#box .box-panel div{
+padding: 10px;
+}
+
+a {
+	text-decoration: none;
+	font-size:initial;
+	padding-left: 5px;
+}
+thead {
+    background-color: rgba(44, 68, 88, 0.93);
+
+}
+thead tr th{
+  color: #d0d8df;
+}
+thead tr th:hover{
+	color: #d0d8df;
+	background-color:rgba(40, 54, 66, 0.88);
+	}
+
+.error{
+      color: red;
+}
+.content{
+	padding : 10px 10px 10px 10px;
+}
+#box .form-group button.btn
+{
+	margin-left: 17px;
+}
+.modal-body label {
+	    padding: 10px 5px 5px 1px;
+}
+/*#addmodule-modal .modal-dialog{
+width: 350px;
+padding: 10px;
+}
+#addmodule-modal .modal-dialog .form-inline .form-group{
+padding: 0px 10px 0px 10px;
+}*/
+/*#editmodule_id-modal .modal-dialog{
+width: 450px;
+padding: 10px;
+}*/
+.modal-dialog .form-inline .form-group{
+padding: 10px 10px 10px 10px;
+}
+.modal-dialog .form-inline .form-group label{
+padding: 10px 10px 10px 10px;
+}
+
+textarea.form-control {
+    height: auto;
+    resize: none;
+}

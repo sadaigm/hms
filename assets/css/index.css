@@ -1,0 +1,69 @@
+#imaginary_container{
+    margin-top:50%; /* Don't copy this */
+}
+.stylish-input-group .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+/*list view */
+button.accordion {
+     background-color: #f5f5f5;
+    color: #016596;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+button.accordion:hover {
+    background-color: #0b6887;
+    color: #f2dede;
+    font-weight: bold;
+}
+button.accordion.active{
+   background-color: #468847;
+    color: #f0f53c;
+    font-weight: bold;
+}
+button.accordion:after {
+    content: '\002B';
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2212";
+}
+
+div.cust_panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    border: #d9edf7;
+    border-width: thin;
+    border-bottom-style: groove;
+}
+.panel-title{
+    font-weight: bold;
+}
+div.panel-heading.col-lg-12.doctor_panel{
+    background-color: #016596;
+     color: #f2dede;
+}
+div.search-bar{
+    padding: 10px;
+}

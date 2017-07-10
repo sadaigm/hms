@@ -1,0 +1,56 @@
+   <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Register</title>
+</head>
+<link rel="stylesheet" href="assets/css/reg_user.css">
+<link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+<body>
+    <?php include "pagelayout/navbar.php" ?>
+   <div id="form" class="table table-striped" style="display: block;">
+                <table>
+                    <tr>
+                        <td>Name:</td>
+                        <td>
+                            <input type='text' id='name' /> </td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>
+                            <input type='text' id='address' /> </td>
+                    </tr>
+                    <tr>
+                        <td>latitude:</td>
+                        <td>
+                            <input type='text' id='latitude' /> </td>
+                    </tr>
+                    <tr>
+                        <td>longitude:</td>
+                        <td>
+                            <input type='text' id='longitude' /> </td>
+                    </tr>
+                    <tr>
+                        <td>Type:</td>
+                        <td>
+                            <select id='type'> +
+                                <option value='Hospital' SELECTED>Hospital</option>
+                                <option value='Clinic'>Clinic</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <input type='button' value='Save' onclick='saveData()' />
+                        </td>
+                    </tr>
+                </table>
+            </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>
